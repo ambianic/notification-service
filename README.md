@@ -5,3 +5,11 @@ Currently ambianic users who are comfortable with YAML configuration files are a
 
 Alternatively, users can use a premium subscription option and skip the manual steps of third party service management and yaml configuration. Premium subscription covers the cost of managing and using thrid party cloud notification servies on their behalf.
 
+The following diagram illustrates the high level architecture of the Ambianic notification service.
+
+[![notification-flow](https://user-images.githubusercontent.com/2234901/112359136-f5b60400-8c9e-11eb-8489-4025fa76fe00.png)](https://drive.google.com/file/d/1VRykNIOxOAyraMdy13iRd-u-zPlCPbTT/view?usp=sharing)
+
+
+The following flow illustrates how an Ambianic Edge device obtains authorization token to use the premium Ambianic notification service. Detailed explanation of the flow available [here](https://auth0.com/docs/flows/device-authorization-flow).
+
+[![auth-sequence-device-auth](https://user-images.githubusercontent.com/2234901/112358395-4f69fe80-8c9e-11eb-949b-778dca839009.png)](https://auth0.com/docs/flows/device-authorization-flow)
